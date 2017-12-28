@@ -1,0 +1,29 @@
+{{!-- pages/contact.hbs --}}
+
+{{#> layouts/base title="Contact | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+
+  {{#*inline "head-block"}}
+  {{/inline}}
+
+  {{#*inline "content-block"}}
+    <div class="fb-grid__container">
+        <div class="fb-grid__row">
+            <div class="fb-grid__col-12">
+                <h1 class="text--uppercase center">Contact</h1>
+                {{> includes/contact-form }}
+                <div class="wrapper">
+                    <p>Arteveldehogeschool Campus Mariakerke<br>
+                    Industrieweg 232<br>
+                    9030 Gent-Mariakerke<br>
+                    +32 9 234 86 00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="../../assets/images/map.jpg">
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

@@ -1,0 +1,52 @@
+.profile-card {
+  border-radius: 5px;
+  padding: 16px;
+  margin-top: 8px;
+
+  @include linear-gradient(top, $primary, $pink);
+
+  .profile-card__content {
+    color: white;
+
+    h3,
+    p {
+      margin: 0;
+      line-height: 30px;
+    }
+
+    span {
+      color: white;
+    }
+
+    & > .left {
+      display: block;
+      width: 46%;
+      margin-right: 4%;
+      float: left;
+    }
+
+    .profile-card__content__social {
+      margin-top: 20px;
+      padding: 0;
+
+      li {
+        display: block;
+        float: left;
+      }
+    }
+
+    .profile-card__content--likes::before {
+      content: '❤';
+      float: left;
+      padding: 0 16px;
+      font-size: 30px;
+    }
+
+    .profile-card__content--views::before {
+      content: '👀';
+      float: left;
+      padding: 0 16px;
+      font-size: 30px;
+    }
+  }
+}

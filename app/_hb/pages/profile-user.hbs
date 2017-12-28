@@ -1,0 +1,22 @@
+{{!-- pages/login.hbs --}}
+
+{{#> layouts/base title="Login | New Media Development | Artevelde University College Ghent" pathToRoot="./" }}
+
+  {{#*inline "head-block"}}
+  {{/inline}}
+
+  {{#*inline "content-block"}}
+    <div class="profile-user">
+      <div class="fb-grid__container">
+        <div class="fb-grid__row">
+          <div class="fb-grid__col-12">
+            {{> includes/profile-card }}
+          </div>
+        </div>
+    </div>
+  {{/inline}}
+
+  {{#*inline "scripts-block"}}
+  {{/inline}}
+
+{{/layouts/base}}

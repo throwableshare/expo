@@ -1,0 +1,10 @@
+.footer {
+  width: 100%;
+  padding: 25px 0;
+
+  @include linear-gradient(top, $primary, $pink);
+
+  .footer__title {
+    color: white;
+  }
+}

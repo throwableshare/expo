@@ -1,0 +1,52 @@
+body {
+  color: $text-default;
+  font-family: $base-font-family;
+  font-size: #{$base-font-size}px;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headings-font-family;
+
+  @include type-setting(1);
+
+  margin: #{$base-line-height}rem 0;
+}
+
+h1 {
+  // @include type-setting(6);
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 49px;
+  color: $primary;
+}
+
+h2 {
+  color: $text-darker;
+
+  @include type-setting(5);
+}
+
+h3 {
+  // @include type-setting(4);
+  font-size: 20px;
+}
+
+h4 {
+  // @include type-setting(3);
+  font-size: 13px;
+}
+
+h5 {
+  @include type-setting(2);
+}
+
+a {
+  text-decoration: none;
+  color: $text-default;
+}

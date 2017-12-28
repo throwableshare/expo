@@ -1,0 +1,30 @@
+/*
+.header__about {
+  margin-left: 320px;
+}
+
+.article__about {
+  position: relative;
+  z-index: 9999;
+  width: 650px;
+  padding: 20px;
+  margin-left: 380px;
+  border-radius: 30px;
+  text-align: justify;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+.header__spotlight {
+  margin-top: 100px;
+}
+*/
+
+.article__header p {
+  margin: 10px 60px 70px;
+  text-align: justify;
+}
+
+.article__about {
+  display: none;
+}
